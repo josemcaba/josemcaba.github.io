@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">  <!--Inicio de la página-->
+	<head>           <!--Inicio del HEAD-->
+		<meta charset="UTF-8">
+		<meta name="description" content="Programación HTML, CSS y Javascript">
+		<meta name="keywords" content="curso, web, programación, aprender">
+		<title>Document</title>
+		<!--Vinculo a una hoja de estilos CSS externa-->
+		<link rel="stylesheet" href="MiHojaDeEstilos.css"/>
+	</head>
+	<body>
+		<b>Poner texto en negrita</b><br>   <!-- Esto es un comentario -->
+		<strong>Poner texto en negrita</strong><br>
+		<i>Poner texto en cursiva</i><br>
+		<em>Poner texto en cursiva</em><br>
+		<u>Poner texto subrayado</u><br>
+		<small>Poner texto más pequeño</small><br>
+		<big>Poner texto más grande</big><br>
+		<sub>Poner texto subíndice</sub><br>
+		<sup>Poner texto superíndice</sup><br>
+		<strike>Poner texto como tachado</strike><br>
+		<s>Poner texto como tachado</s><br>
+		<del>Poner texto como tachado</del><br>
+		<hgroup>
+			<h1>Esto es un H1</h1>
+			<h2>Esto es un H2</h2>
+			<h3>Esto es un H3</h3>
+			<h4>Esto es un H4</h4>
+			<h5>Esto es un H5</h5>
+			<h6>Esto es un H6</h6>
+		</hgroup>
+		<p>Esto es un párrafo</p>
+		<hr>
+		<p>Esto es otro párrafo bajo una línea de separación hecha con HR</p>
+		<hr>
+		<hr>
+		<!--Parrafo-->
+		<a id="marcadorParrafos"><h1>Resumen de párrafos</h1></a>
+		<p>Esto es un párrafo de texto. Para crear automáticamente un texto de prueba,
+escribimos LoremXX, donde XX será el número de palabras que queremos crear. Y a
+	continuación le damos a la tecla TAB.
+	</p>
+	<br> <!--Salto de linea-->
+	<pre>
+	Etiqueta de texto preformateado. El navegador interpreta el texto escrito tal y como
+	está, respetando los saltos de línea, espacios, etc. indicados.
+	Por ejemplo, ahora vamos a poner dos saltos de línea
+
+
+	...y luego seguiremos escribiendo.</pre>
+	<br>
+	<a name="nombre_del_marcador">Texto
+		asociado al marcador</a> (No recomendado:
+		no es aceptado por las nuevas versiones
+		de HTML, aunque se uso bastante en el
+		pasado).
+		<a id="nombre_del_marcador">Texto
+		asociado al marcador</a>
+	<br>
+	Pulsa pra volver a <a href="#marcadorParrafos">Resumen de párrafos</a>
+	<br>
+	<a id="listas"><h1><u>Listas</u></h1></a>
+	<!--Lista no ordenada-->
+	<ul style="list-style-type:circle">
+		<li>Primer elemento de la lista
+		sin ordenar</li>
+		<li>Segundo elemento de la lista
+		sin ordenar</li>
+		<li>Tercer elemento de la lista
+		sin ordenar</li>
+	</ul>
+	<br>
+	<!--Lista ordenada-->
+	<ol>
+		<li>Primer elemento de la lista</li>
+		<li>Segundo elemento de la lista</li>
+		<li>Tercer elemento de la lista</li>
+	</ol>
+	<br>
+	<br>
+	<!--Lista no ordenada dentro de otra ordenada-->
+	<ol>
+		<li>Primer elemento de la
+			lista ordenada</li>
+		<li>
+		 	<ul>
+		  		<li>Segundo de la
+		      		ordenada y primero de la lista no
+		      		ordenada</li>
+		  		<li>Segundo de la
+					ordenada y segundo de la lista no
+					ordenada</li>
+				<li>Segundo de la
+					ordenada y tercero de la lista no
+					ordenada</li>
+			</ul>
+		</li>
+		<li>Tercer elemento de la
+			lista ordenada</li>
+	</ol>
+	<!--Lista de definiciones-->
+	<dl>
+		<dt>Café</dt>
+		<dd>Bebida caliente</dd>
+		<dt>Refresco</dt>
+		<dd>Bebida fría</dd>
+	</dl>
+
+	<a id="tablas"><h1><u>Tablas</u></h1></a>
+	<!--Tabla sencilla-->
+	<table border="1px" >
+		<caption>Tabla simple de 3x3</caption>
+		<tr>
+			<td>Celda A</td>
+			<td>Celda B</td>
+			<td>Celda B</td>
+		</tr>
+		<tr>
+			<td>Celda C</td>
+			<td>Celda D</td>
+			<td>Celda E</td>
+		</tr>
+		<tr>
+			<td>Celda F</td>
+			<td>Celda G</td>
+			<td>Celda H</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1">
+		<caption>Tabla con celdas unidas mediante coolspan</caption>
+		<tr>
+			<th>NOMBRE</th>
+			<th>Día 1</th>
+			<th>Día 2</th>
+			<th>Día 3</th>
+			<th>Día 4</th>
+		</tr>
+		<tr>
+			<th>Mike (lastimado)</th>
+			<td colspan="3">0 km</td>
+		<td>4 km</td>
+		</tr>
+		<tr>
+		<th>Susan</th>
+		<td>23 km</td>
+		<td>18 km</td>
+		<td>19 km</td>
+		<td>15 km</td>
+		</tr>
+		</table>
+	<br>
+	<h1>Su pedido</h1>
+		<table border="1px">
+		<tr>
+			<th scope="col">Nombre producto</th>
+			<th scope="col">Precio unitario</th>
+			<th scope="col">Unidades</th>
+			<th scope="col">Subtotal</th>
+		</tr>
+		<tr>
+			<td>Reproductor MP3 (80 GB)</td>
+			<td>192.02</td>
+			<td>1</td>
+			<td>192.02</td>
+		</tr>
+		<tr>
+			<td>Fundas de colores</td>
+			<td>2.50</td>
+			<td>5</td>
+			<td>12.50 </td>
+		</tr>
+		<tr>
+			<td>Reproductor de radio</td>
+			<td>12.99</td>
+			<td>1</td>
+			<td>12.99</td>
+		</tr>
+		<tr>
+			<th scope="row">TOTAL</th>
+			<td>-</td>
+			<td>7</td>
+			<td><strong>207.51</strong></td>
+		</tr>
+	</table>
+	<br>
+	<table border="1px">
+		<tr>
+			<th scope="row">Día</th>
+			<th>Hoy</th>
+			<th>Mañana</th>
+			<th>Jueves</th>
+		</tr>
+		<tr>
+			<th>Condición</th>
+			<td>Soleado</td>
+			<td>Mayormente soleado</td>
+			<td>Parcialmente nublado</td>
+		</tr>
+		<tr>
+			<th>Temperatura</th>
+			<td>19°C</td>
+			<td>17°C</td>
+			<td>12°C</td>
+		</tr>
+		<tr>
+			<th>Vientos</th>
+			<td>E 13 km/h</td>
+			<td>E 11 km/h</td>
+			<td>S 16 km/h</td>
+		</tr>
+	</table>
+	<br>
+	<a ref="formulario"><h1><u>Formulario</u></h1></a>
+	<form name="formulario" id="formulario"	method="get" autocomplete="off">
+		Email: <input type="email" name="mail" id="mail">
+		<input type="submit" value="Aceptar">
+		<br><br>
+		Edad: <input type="number" name="edad" id="edad" min="18" max="100">
+		<input type="submit" value="Aceptar">
+		<br><br>
+		Buscar: <input type="search" name="buscar" id="buscar">
+		<br><br>
+		URL: <input type="url" name="URL" id="URL">
+		<br><br>
+		Edad: <input type="number" name="edad" id="edad" min="0" max="100" step="5"	placeholder="Introduce edad">
+		<br><br>
+		Rango: <input type="range" min="0" max="100" step="5">
+		<br><br>
+		Fecha: <input type="date" name="fecha" id="fecha">
+		<br><br>
+		Hora: <input type="time" name="hora" id="hora" required>
+		<br><br>
+		Código postal: <input pattern="(0-9){5}" placeholder="5 dígitos">
+		<br><br>
+		<input type="submit"value="Enviar">
+		<br><br>
+
+	</form>
+	</body>
+</html>
