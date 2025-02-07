@@ -32,18 +32,30 @@ header {
   border-radius: 5px;
 }
 
+/* Estilos para subcategorías */
+.subcategory {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 4px solid #0066cc;
+}
+
+.subcategory h3 {
+  color: #0066cc;
+  margin-top: 0;
+}
+
 /* Estilos para los proyectos */
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .project {
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.3s;
 }
@@ -52,7 +64,7 @@ header {
   transform: scale(1.02);
 }
 
-.project h3 {
+.project h4 {
   margin-top: 0;
 }
 
