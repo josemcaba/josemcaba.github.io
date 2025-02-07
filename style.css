@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Estilos para categorías */
+.category {
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  background: #0066cc;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para los proyectos */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+/* Responsive: dos columnas en pantallas medianas y grandes */
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Pie de página */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
