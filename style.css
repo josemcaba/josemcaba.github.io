@@ -7,11 +7,28 @@ body {
   color: #333;
 }
 
+/* Estilos para el header */
 header {
   background: #333;
   color: #fff;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que en pantallas pequeñas se acomoden en varias líneas */
+}
+
+.header-text {
+  /* Puedes ajustar el ancho o agregar márgenes si lo deseas */
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* Opcional: agrega un margen izquierdo para separar la imagen del texto */
+  margin-left: 20px;
 }
 
 .container {
