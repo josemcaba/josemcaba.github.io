@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantillasOcr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Plantilla Emisor="MERCADONA, S.A.">
+    <Zona Campo="Zona1" X="3.22108345534407" Y="6.928645294725956" Ancho="22.10834553440703" Alto="11.271975180972078" Regex="">
+      <Opcional>false</Opcional>
+      <Preprocesamiento>
+        <EscalaGrises>true</EscalaGrises>
+        <Binarizacion>false</Binarizacion>
+        <UmbralBinarizacion>128</UmbralBinarizacion>
+        <Redimensionar>false</Redimensionar>
+        <FactorEscala>2</FactorEscala>
+        <EliminarRuido>true</EliminarRuido>
+        <InvertirColores>false</InvertirColores>
+        <AutoRecortar>false</AutoRecortar>
+        <PaddingAutoRecorte>5</PaddingAutoRecorte>
+      </Preprocesamiento>
+    </Zona>
+    <Zona Campo="Zona2" X="60.02928257686676" Y="7.0320579110651495" Ancho="38.3601756954612" Alto="12.099276111685626" Regex="">
+      <Opcional>false</Opcional>
+      <Preprocesamiento>
+        <EscalaGrises>true</EscalaGrises>
+        <Binarizacion>false</Binarizacion>
+        <UmbralBinarizacion>128</UmbralBinarizacion>
+        <Redimensionar>false</Redimensionar>
+        <FactorEscala>2</FactorEscala>
+        <EliminarRuido>true</EliminarRuido>
+        <InvertirColores>false</InvertirColores>
+        <AutoRecortar>false</AutoRecortar>
+        <PaddingAutoRecorte>5</PaddingAutoRecorte>
+      </Preprocesamiento>
+    </Zona>
+    <Zona Campo="Zona3" X="3.513909224011713" Y="28.43846949327818" Ancho="64.86090775988286" Alto="57.70423991726991" Regex="">
+      <Opcional>false</Opcional>
+      <Preprocesamiento>
+        <EscalaGrises>true</EscalaGrises>
+        <Binarizacion>false</Binarizacion>
+        <UmbralBinarizacion>128</UmbralBinarizacion>
+        <Redimensionar>false</Redimensionar>
+        <FactorEscala>2</FactorEscala>
+        <EliminarRuido>true</EliminarRuido>
+        <InvertirColores>false</InvertirColores>
+        <AutoRecortar>false</AutoRecortar>
+        <PaddingAutoRecorte>5</PaddingAutoRecorte>
+      </Preprocesamiento>
+    </Zona>
+    <AnchoReferencia>1000</AnchoReferencia>
+    <AltoReferencia>1000</AltoReferencia>
+    <TipoCoordenada>Normalizadas</TipoCoordenada>
+  </Plantilla>
+</PlantillasOcr>
