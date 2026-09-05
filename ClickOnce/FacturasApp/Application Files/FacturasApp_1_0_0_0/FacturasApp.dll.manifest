@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="FacturasApp.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="FacturasApp.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="es" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets/app-icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1">Aplicación para procesar y gestionar facturas</description>
   <application />
   <entryPoint>
@@ -117,13 +117,13 @@
       <dsig:DigestValue>18Rbjk4QJ4MeL8jN+UH69R0opm/qz8qqc32nMmLntQc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.Core.dll" size="251904">
+  <file name="FacturasApp.Core.dll" size="258048">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>q5ELiXiTC1r86pccaIgBynyTaPF/Kx0ZvP9qVJmLYSI=</dsig:DigestValue>
+      <dsig:DigestValue>DSW+AUAEAvjqdw7543giLXAPMTgyq/uIwlUIcvBk24s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.deps.json" size="7976">
@@ -141,7 +141,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jRDtspxoHYQ77R3TOXDibVIsNzXjke1q3Nps+zlT6kQ=</dsig:DigestValue>
+      <dsig:DigestValue>6LSPc2oPJ2oYW10zZdGcPmlgLgRlljzEh4+q27Ujmes=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.exe" size="384000">
@@ -150,7 +150,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>McrHNYvw5IJc+Y7mV4+px+DtXONlREBsOUc60jjLCGk=</dsig:DigestValue>
+      <dsig:DigestValue>ducPlCS3wU5ImRz2gGWQei8ji0gJVhd7N+hXAy5nEEY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.runtimeconfig.json" size="519">
@@ -196,24 +196,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>mdYxi0O60EgqyUfxp9YMOv9DmmT7mMAE+S/mDUhubqw=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="de\PdfiumViewer.resources.dll" size="5120">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>pRoc3HFK2Cen2doUd98BeyWeYUF9kGF9qFsEuvtHLpc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="nl\PdfiumViewer.resources.dll" size="5120">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Eu4DJsKy4naTz6E6/12Leq29EhBqi3UfVdqRRW5p4kk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="runtimes\win-arm64\native\pdfium.dll" size="5278208">
