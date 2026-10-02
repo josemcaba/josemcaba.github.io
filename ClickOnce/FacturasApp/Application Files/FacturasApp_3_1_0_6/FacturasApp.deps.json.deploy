@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "FacturasApp/3.0.0": {
+      "FacturasApp/3.1.0": {
         "dependencies": {
           "CsvHelper": "33.1.0",
           "FacturasApp.Core": "1.0.0",
@@ -149,7 +149,7 @@
     }
   },
   "libraries": {
-    "FacturasApp/3.0.0": {
+    "FacturasApp/3.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
