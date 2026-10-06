@@ -1,2 +1,6 @@
+* text=auto
+.gitattributes text eol=lf
+index.html text eol=lf
+style.css text eol=lf
 ClickOnce/**  binary
 
