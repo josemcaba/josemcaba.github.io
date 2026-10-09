@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="FacturasApp.exe" version="3.1.0.8" publicKeyToken="0000000000000000" language="es" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="FacturasApp.exe" version="3.1.1.11" publicKeyToken="0000000000000000" language="es" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets/app-icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1">Aplicación para procesar y gestionar facturas</description>
   <application />
   <entryPoint>
@@ -72,13 +72,13 @@
       <dsig:DigestValue>jTbnW5sjjlfd1BItDi9hBazchzvOLylyd64KJd32EOs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ClosedXML.dll" size="1691136">
+  <file name="ClosedXML.dll" size="1692160">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qywEh7ovGZmG5uR6KV2x7M0sm3ilXI/ICMWLhfpZqP0=</dsig:DigestValue>
+      <dsig:DigestValue>0gJw760NP1oX7TXG/lEsIHGx7UClfOkRmYl/QXYOwbw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="CsvHelper.dll" size="226816">
@@ -117,13 +117,13 @@
       <dsig:DigestValue>18Rbjk4QJ4MeL8jN+UH69R0opm/qz8qqc32nMmLntQc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.Core.dll" size="195072">
+  <file name="FacturasApp.Core.dll" size="210944">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WIHmExQwlAzByTZdRqaMMD9izybDjpSxlnwR93KryPU=</dsig:DigestValue>
+      <dsig:DigestValue>f+DY7ZejY4qHKblaX3C/1k5HcE6Dfk8tqUk9U6wJ6/k=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.deps.json" size="7976">
@@ -132,16 +132,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>VcBJTKXeAihoP7WTQ8y/KiomiaI6FLsEulX3dVq/tGs=</dsig:DigestValue>
+      <dsig:DigestValue>cdJTiEFDFGrDU+ioCwHSkvE6B0GgsBZol9rdn8yfab0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.dll" size="790016">
+  <file name="FacturasApp.dll" size="791552">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fOETALTOvmoftPR7lhBKZ5PH//6sa8/89HUtc+stYLU=</dsig:DigestValue>
+      <dsig:DigestValue>fHYg5/usQzQq79bpZutrF+0mlo0LxO0PPrAdTUOwq04=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.exe" size="383488">
@@ -150,7 +150,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JTp9VoLMfGdLXGFDQ2vuecG6djVIaEKXJVsQIh0BGEk=</dsig:DigestValue>
+      <dsig:DigestValue>26JGl7zXlpgPKYN/U3DY2viSzz0SYuCGeGAXWbLjZZk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.runtimeconfig.json" size="519">
@@ -198,31 +198,31 @@
       <dsig:DigestValue>mdYxi0O60EgqyUfxp9YMOv9DmmT7mMAE+S/mDUhubqw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-arm64\native\pdfium.dll" size="5278208">
+  <file name="runtimes\win-arm64\native\pdfium.dll" size="6871552">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>T163wcu/suPZH9drf5uxhqtEi+ZibD2GB3jP+W51ivY=</dsig:DigestValue>
+      <dsig:DigestValue>KUXRvz+zZ/iS3xRXEtuFPngpzRr+GhoIl/NK9/SUBE4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-x64\native\pdfium.dll" size="5721600">
+  <file name="runtimes\win-x64\native\pdfium.dll" size="7494656">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>YEddWelS/vrLIZg8hfhNb9mviDN6iZUzVHHrAvbwXCo=</dsig:DigestValue>
+      <dsig:DigestValue>HyruQoa4zwQTq0VitxIapFT5z9mv1sqGCbzvgJJ7P4A=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-x86\native\pdfium.dll" size="5296640">
+  <file name="runtimes\win-x86\native\pdfium.dll" size="6943744">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4DaRJ9Ljj30gc1LdAYCLwEnrIpGlnWWAHhmSBz4t8Io=</dsig:DigestValue>
+      <dsig:DigestValue>CV8XZE49wySseADV8bvcOLz6vR9SBFYX2AUJAa6VRLM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="tessdata\eng.traineddata" size="23466654">
