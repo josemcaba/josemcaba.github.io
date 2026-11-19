@@ -6,12 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "FacturasApp/3.2.3": {
+      "FacturasApp/4.0.0": {
         "dependencies": {
           "FacturasApp.Core": "1.0.0",
-          "PdfiumViewer.Updated": "2.14.5",
-          "Tesseract": "5.2.0",
-          "bblanchon.PDFium.Win32": "159.0.8152"
+          "FacturasApp.Extraction.Windows": "1.0.0",
+          "FacturasApp.Infrastructure": "1.0.0"
         },
         "runtime": {
           "FacturasApp.dll": {}
@@ -141,11 +140,34 @@
         }
       },
       "FacturasApp.Core/1.0.0": {
-        "dependencies": {
-          "ClosedXML": "0.105.1"
-        },
         "runtime": {
           "FacturasApp.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FacturasApp.Extraction.Windows/1.0.0": {
+        "dependencies": {
+          "FacturasApp.Core": "1.0.0",
+          "PdfiumViewer.Updated": "2.14.5",
+          "Tesseract": "5.2.0",
+          "bblanchon.PDFium.Win32": "159.0.8152"
+        },
+        "runtime": {
+          "FacturasApp.Extraction.Windows.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FacturasApp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ClosedXML": "0.105.1",
+          "FacturasApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "FacturasApp.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -154,7 +176,7 @@
     }
   },
   "libraries": {
-    "FacturasApp/3.2.3": {
+    "FacturasApp/4.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -230,6 +252,16 @@
       "hashPath": "tesseract.5.2.0.nupkg.sha512"
     },
     "FacturasApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FacturasApp.Extraction.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FacturasApp.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
