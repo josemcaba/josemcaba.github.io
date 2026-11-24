@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="FacturasApp.exe" version="4.0.0.0" publicKeyToken="0000000000000000" language="es" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="FacturasApp.exe" version="4.0.0.3" publicKeyToken="0000000000000000" language="es" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets/app-icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1">Aplicación para procesar y gestionar facturas</description>
   <application />
   <entryPoint>
@@ -108,31 +108,49 @@
       <dsig:DigestValue>18Rbjk4QJ4MeL8jN+UH69R0opm/qz8qqc32nMmLntQc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.Core.dll" size="325632">
+  <file name="FacturasApp.Core.dll" size="321024">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KhYkS2G7ZNg6EMEbY+kITvSZC1KOpW+L6YDVxlANR1k=</dsig:DigestValue>
+      <dsig:DigestValue>gaZXQFm0EwQVZCWPdRTACCiFb9jZd0ygra8KMaGJrbk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.deps.json" size="8196">
+  <file name="FacturasApp.Extraction.Windows.dll" size="25088">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zzgfqtSq9iqnf9arnigDS1ijt95Uy0eVnS5Kip8FT4I=</dsig:DigestValue>
+      <dsig:DigestValue>pSjG6bTnnl/8MZGPJZa2XXy8cthgBB7OXZwnuV6UMzQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="FacturasApp.dll" size="890368">
+  <file name="FacturasApp.Infrastructure.dll" size="41984">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>h+4t+TeuYCVfHyrSxjpP4GforyGEb20el+XL0yGTp9Y=</dsig:DigestValue>
+      <dsig:DigestValue>l3POgEk6JtJaOOQJFzZDcGdYfXDKpjHi4HEqvP+h5qs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FacturasApp.deps.json" size="9140">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0Gt/dSc1Bzv67ZagErQ1YsHKyG9zj6QuyheLEPYxAEg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FacturasApp.dll" size="871936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U9XI+spabeF3EE34chqq70H5yK/Gclyz4tNVG9wCaLw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.exe" size="383488">
@@ -141,7 +159,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>InHr5rFVjNIlygCEW+KEymxfEP7o+MMaB1HKezKh9Vo=</dsig:DigestValue>
+      <dsig:DigestValue>B3CZNXARo+QsD5muoz6UoV3syH9aBux0maQloSrscyU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FacturasApp.runtimeconfig.json" size="519">
